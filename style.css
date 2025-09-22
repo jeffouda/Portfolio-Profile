@@ -120,6 +120,23 @@ a:hover {
   object-fit: cover;
   margin-bottom: 10px;
 }
+#about {
+  padding: 60px 20px;
+  background: lightgray;
+}
 .p-card {
   padding: 20px;
+}
+.about-text h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: rgb(58, 54, 54);
+  margin-bottom: 20px;
+}
+.about-text {
+  max-width: 500px;
 }
