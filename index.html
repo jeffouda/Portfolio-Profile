@@ -22,21 +22,26 @@
     <nav id="hamburger">
       <div class="logo">Jeff Ouda</div>
       <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="openMenu()">
+        <div class="hamburger-icon" onclick="openMenu(event)">
           <span></span>
           <span></span>
           <span></span>
         </div>
         <div class="menu-link">
           <ul>
-            <li><a href="#home" onclick="openMenu()">Home</a></li>
-            <li><a href="#about" onclick="openMenu()">About</a></li>
-            <li><a href="#projects" onclick="openMenu()">Projects</a></li>
-            <li><a href="#contact" onclick="openMenu()">Contact</a></li>
+            <li><a href="#home" onclick="openMenu(event)">Home</a></li>
+            <li><a href="#about" onclick="openMenu(event)">About</a></li>
+            <li><a href="#projects" onclick="openMenu(event)">Projects</a></li>
+            <li><a href="#contact" onclick="openMenu(event)">Contact</a></li>
           </ul>
         </div>
       </div>
     </nav>
+    <section id="section1">
+      <div class="p-card">
+        <img src="images/IMG-20250831-WA0002.jpg" alt="photo" />
+      </div>
+    </section>
     <script src="app.js"></script>
   </body>
 </html>
