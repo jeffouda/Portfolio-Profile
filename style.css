@@ -112,3 +112,14 @@ a:hover {
 .hamburger-icon.open span:last-child {
   transform: rotate(-45deg) translate(10px, -5px);
 }
+.p-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 50px;
+  max-width: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.p-card {
+  padding: 20px;
+}
