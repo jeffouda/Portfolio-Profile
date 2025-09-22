@@ -140,3 +140,27 @@ a:hover {
 .about-text {
   max-width: 500px;
 }
+#projects {
+  padding: 60px 20px;
+  background: rgb(116, 77, 77);
+  text-align: center;
+}
+#projects h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+.project-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.project-card {
+  background: #fff;
+  text-align: left;
+  padding: 20px;
+  border-radius: 12px;
+}
+.project-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
