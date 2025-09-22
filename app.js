@@ -1,4 +1,4 @@
-function toggleMenu() {
+function openMenu() {
   const menu = document.querySelector(".menu-link");
   const icon = document.querySelector(".hamburger-icon");
   menu.classList.toggle("open");
